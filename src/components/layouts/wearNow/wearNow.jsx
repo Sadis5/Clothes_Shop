@@ -30,7 +30,7 @@ export default function WearNow(params) {
       
       <button onClick={() => {
         setNum(num + 1)
-      }}>+</button>
+      }}>++</button>
       <button onClick={() => {
         setNum(num - 1)
       }}>-</button>
