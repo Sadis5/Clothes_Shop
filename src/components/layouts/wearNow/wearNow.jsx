@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./wearNow.css";
 
 const CardMass = [
@@ -19,8 +20,23 @@ const CardMass = [
 ];
 
 export default function WearNow(params) {
+  const [num, setNum ] = useState(0)
+
   return (
+
+    
     <section className="wearnow">
+      
+      
+      <button onClick={() => {
+        setNum(num + 1)
+      }}>+</button>
+      <button onClick={() => {
+        setNum(num - 1)
+      }}>-</button>
+      <h1 >{num}</h1>
+
+
       <h1>Заголовок</h1>
       <div className="wearNow_list">
         {CardMass.map((element, i) => {
