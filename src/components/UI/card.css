@@ -1,0 +1,9 @@
+.color_choose{
+    opacity: 0;
+}
+
+.card:hover .color_choose{
+    opacity: 100%;
+    transition: 0.5s;
+
+}
