@@ -1,0 +1,109 @@
+[
+  {
+    "img": "./img/black_crown.jpg",
+    "name": "Кепка",
+    "price": "50",
+    "colors": 
+    [
+
+      {
+        "color": "#000",
+        "color_img": "./img/black_crown.jpg",
+        "color_name": "Black"
+      },
+      {
+        "color": "red",
+        "color_img": "./img/red_crown.jpg",
+        "color_name": "Red"
+      }
+    ]
+  },
+
+
+  {
+    "img": "./img/black_crown.jpg",
+    "name": "Кепка",
+    "price": "50",
+    "colors": 
+    [
+
+      {
+        "color": "#000",
+        "color_img": "./img/black_crown.jpg",
+        "color_name": "Black"
+      },
+      {
+        "color": "red",
+        "color_img": "./img/red_crown.jpg",
+        "color_name": "Red"
+      }
+    ]
+  },
+
+
+  {
+    "img": "./img/black_crown.jpg",
+    "name": "Кепка",
+    "price": "50",
+    "colors": 
+    [
+
+      {
+        "color": "#000",
+        "color_img": "./img/black_crown.jpg",
+        "color_name": "Black"
+      },
+      {
+        "color": "red",
+        "color_img": "./img/red_crown.jpg",
+        "color_name": "Red"
+      }
+    ]
+  },
+
+
+  {
+    "img": "./img/black_crown.jpg",
+    "name": "Кепка",
+    "price": "50",
+    "colors": 
+    [
+
+      {
+        "color": "#000",
+        "color_img": "./img/black_crown.jpg",
+        "color_name": "Black"
+      },
+      {
+        "color": "red",
+        "color_img": "./img/red_crown.jpg",
+        "color_name": "Red"
+      }
+    ]
+  },
+
+  
+  {
+    "img": "./img/black_crown.jpg",
+    "name": "Кепка",
+    "price": "50",
+    "colors": 
+    [
+
+      {
+        "color": "#000",
+        "color_img": "./img/black_crown.jpg",
+        "color_name": "Black"
+      },
+      {
+        "color": "red",
+        "color_img": "./img/red_crown.jpg",
+        "color_name": "Red"
+      }
+    ]
+  }
+
+
+
+]
+

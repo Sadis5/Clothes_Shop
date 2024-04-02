@@ -1,0 +1,12 @@
+.default {
+  background-color: white;
+  padding: 25px 25px;
+  font-size: 25px;
+  border: none;
+}
+
+.default:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}

@@ -1,0 +1,10 @@
+.filter_button {
+    background: none;
+}
+
+.filter_button:hover {
+    background: black;
+    color: white;
+    transition: 0.5s;
+
+}
