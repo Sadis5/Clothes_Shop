@@ -6,12 +6,14 @@ export default function Filter({text}) {
         borderRadius: "10px",
         padding: "0 10px",
         cursor: "pointer",
-        marginTop: "20px",
+       
 
         
     }}>
 
         {text}
+
+   
 
     </button>
     

@@ -8,3 +8,15 @@
     transition: 0.5s;
 
 }
+
+.sort_button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: gray;
+    
+}
+
+.sort_button:hover{
+    color: black;
+}

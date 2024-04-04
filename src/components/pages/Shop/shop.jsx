@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "../../UI/UI.css"
 import { useEffect, useState } from "react";
 import { Card } from "../../UI/card";
+import Sort from "../../UI/sort";
 
 const MassFilter = ["Кепки", "Футболки", "Кофты", "Штаны", "Кроссовки"]
 
@@ -38,24 +39,39 @@ useEffect(() => {
     
     return <>
     <Header/>
-    <section style={{
+
+    <section className="container" style={{
         display: "flex",
         gap: "10px",
-        
+        alignItems: "center",
+        borderBottom: "1px solid black",
+        paddingTop: "10px",
+        paddingBottom: "10px",
+        justifyContent: "space-between"
         
     }}>
+        <div style={{
+            display: "flex",
+            gap: "10px"
+        }}>
         {MassFilter.map((element, i) => {
             return (
                 <Filter  text={element}/>
             )
+
         })}
+
+        </div>
+        <Sort/>
     </section>
        
 
-    <section style={{
-        display: "flex",
-        flexWrap: "wrap",
-        gap: "10px"
+    <section className="container" style={{
+        marginTop: "40px",
+        display: "grid",
+        gridTemplateColumns: "repeat(4, 251)",
+        gap: "30px",
+        justifyContent: "center"
     }}>
 
     {posts != null ? (
@@ -63,8 +79,7 @@ useEffect(() => {
         {posts.map((element) => {
             return <>
             <Card card={element}/>
-            <img src={element.thumbnailUrl} alt="" />
-            <p>{element.title}</p>
+
             
             </>
         })}
