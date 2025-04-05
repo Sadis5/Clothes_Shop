@@ -1,0 +1,34 @@
+{
+  "user_id": "wdfwqdwq",
+  "products": [
+    {
+      "product_id": 1,
+      "img": "./img/black_crown.jpg",
+      "name": "ЭТО ТОЧНО НЕ КЕПКА",
+      "price": "500",
+      "count": 1,
+      "active_color": "black",
+      "tags": ["Штаны", "хлопок"],
+      "colors": [
+        {
+          "color": "#000",
+          "color_img": [
+            "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+          ],
+          "color_name": "Black"
+        },
+        {
+          "color": "white",
+          "color_img": [
+            "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+            "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+          ],
+          "color_name": "White"
+        }
+      ]
+    }
+  ]
+}

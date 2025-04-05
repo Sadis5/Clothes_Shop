@@ -1,16 +1,21 @@
-import "./button.css"
-const Button = ({text, func}) => {
-     return <button class="default" onClick={func} style={{
+import "./button.css";
+const Button = ({ text, func, children }) => {
+  return (
+    <button
+      className="button"
+      onClick={func}
+      style={{
         display: "flex",
-        cursor: "pointer",
-        border: "solid 1px black",
-        height: "42px",
-        justifyContent: "center",
         alignItems: "center",
-        fontSize: "15px"
-        
-     }}>
-         {text}
-     </button>
-}
-export {Button}                                   
+        justifyContent: "center",
+
+        fontSize: "15px",
+        cursor: "pointer",
+      }}
+    >
+      {text}
+      {children}
+    </button>
+  );
+};
+export { Button };

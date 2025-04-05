@@ -1,9 +1,19 @@
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
+
+li {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
+
 .header {
   display: flex;
   flex-direction: column;
 
   margin: 0;
-  border-bottom: solid black 1px;
+  border-bottom: solid var(--card-border-color) 1px;
 }
 
 .header_top {

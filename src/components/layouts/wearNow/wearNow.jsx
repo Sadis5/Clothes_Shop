@@ -22,9 +22,9 @@ const CardMass = [
         color_name: "Black"
       },
       {
-        color: "red",
+        color: "white",
         img: "./img/red_crown.jpg",
-        color_name: "Red"
+        color_name: "White"
       },
     ],  
   },
@@ -40,9 +40,9 @@ const CardMass = [
         color_name: "Black"
       },
       {
-        color: "red",
+        color: "white",
         img: "",
-        color_name: "Red"
+        color_name: "White"
       },
     ],
   },

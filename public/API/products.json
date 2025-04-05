@@ -1,109 +1,135 @@
 [
   {
+    "id": 1,
     "img": "./img/black_crown.jpg",
-    "name": "Кепка",
-    "price": "50",
-    "colors": 
-    [
-
+    "name": "ЭТО ТОЧНО НЕ КЕПКА",
+    "price": "500",
+    "count": 1,
+    "active_color": "black",
+    "tags": ["Штаны", "хлопок"],
+    "colors": [
       {
         "color": "#000",
-        "color_img": "./img/black_crown.jpg",
+        "color_img": [
+          "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+          "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+          "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        ],
         "color_name": "Black"
       },
       {
-        "color": "red",
-        "color_img": "./img/red_crown.jpg",
-        "color_name": "Red"
+        "color": "white",
+        "color_img": [
+          "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+          "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+          "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        ],
+        "color_name": "White"
       }
     ]
   },
 
-
   {
+    "id": "3473824973298",
+    "is_favourite": true,
+    "choosen_card": false,
     "img": "./img/black_crown.jpg",
-    "name": "Кепка",
-    "price": "50",
-    "colors": 
-    [
-
+    "name": "Юбка",
+    "price": "100",
+    "count": 1,
+    "active_color": "black",
+    "tags": ["Юбки", "хлопок"],
+    "colors": [
       {
         "color": "#000",
-        "color_img": "./img/black_crown.jpg",
+        "color_img": [
+          "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+          "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+          "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        ],
         "color_name": "Black"
       },
       {
-        "color": "red",
-        "color_img": "./img/red_crown.jpg",
-        "color_name": "Red"
+        "color": "white",
+        "color_img": [
+          "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+          "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+          "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        ],
+        "color_name": "White"
       }
     ]
   },
 
-
   {
+    "id": "34ef738rg2hj497329312",
+    "is_favourite": false,
+    "choosen_card": false,
     "img": "./img/black_crown.jpg",
     "name": "Кепка",
     "price": "50",
-    "colors": 
-    [
-
+    "count": 1,
+    "active_color": "black",
+    "tags": ["Кепки", "хлопок"],
+    "colors": [
       {
         "color": "#000",
-        "color_img": "./img/black_crown.jpg",
+        "color_img": ["./img/black_crown.jpg"],
         "color_name": "Black"
       },
       {
-        "color": "red",
-        "color_img": "./img/red_crown.jpg",
-        "color_name": "Red"
+        "color": "white",
+        "color_img": ["./img/red_crown.jpg"],
+        "color_name": "White"
       }
     ]
   },
 
-
   {
+    "id": 4,
+    "is_favourite": true,
+    "choosen_card": false,
     "img": "./img/black_crown.jpg",
-    "name": "Кепка",
-    "price": "50",
-    "colors": 
-    [
-
+    "name": "Это штаны",
+    "price": "1000",
+    "count": 1,
+    "active_color": "black",
+    "tags": ["Штаны", "шелк"],
+    "colors": [
       {
         "color": "#000",
-        "color_img": "./img/black_crown.jpg",
+        "color_img": ["./img/black_crown.jpg"],
         "color_name": "Black"
       },
       {
-        "color": "red",
-        "color_img": "./img/red_crown.jpg",
-        "color_name": "Red"
+        "color": "white",
+        "color_img": ["./img/red_crown.jpg"],
+        "color_name": "White"
       }
     ]
   },
 
-  
   {
+    "id": 5,
+    "is_favourite": false,
+    "choosen_card": false,
     "img": "./img/black_crown.jpg",
     "name": "Кепка",
     "price": "50",
-    "colors": 
-    [
-
+    "count": 1,
+    "active_color": "black",
+    "tags": ["Кепки", "синтетика"],
+    "colors": [
       {
         "color": "#000",
-        "color_img": "./img/black_crown.jpg",
+        "color_img": ["./img/black_crown.jpg"],
         "color_name": "Black"
       },
       {
-        "color": "red",
-        "color_img": "./img/red_crown.jpg",
-        "color_name": "Red"
+        "color": "white",
+        "color_img": ["./img/red_crown.jpg"],
+        "color_name": "White"
       }
     ]
   }
-
-
-
 ]
-

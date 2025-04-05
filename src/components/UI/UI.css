@@ -1,22 +1,24 @@
 .filter_button {
-    background: none;
+  background: none;
+  transition: 0.5s;
 }
 
 .filter_button:hover {
-    background: black;
-    color: white;
-    transition: 0.5s;
-
+  background: black;
+  color: white;
+}
+.--active-filter {
+  background: black;
+  color: white;
 }
 
-.sort_button{
-    border: none;
-    background: none;
-    cursor: pointer;
-    color: gray;
-    
+.sort_button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: gray;
 }
 
-.sort_button:hover{
-    color: black;
+.sort_button:hover {
+  color: black;
 }

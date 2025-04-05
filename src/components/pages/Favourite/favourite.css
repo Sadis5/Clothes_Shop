@@ -1,0 +1,8 @@
+.favourite{
+    display: grid;
+    grid-template-columns: repeat(4, 251px);
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center;
+
+}
